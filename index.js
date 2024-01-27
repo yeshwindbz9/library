@@ -80,5 +80,5 @@ function formSubmit(event) {
   let pages = document.forms[0]["pages"].value;
   let status = document.forms[0]["status"].value;
   addToLibrary(title, author, pages, status);
-  alert(`Added Book ${title}!`);
+  alert(`Adding Book ${title}!`);
 }
